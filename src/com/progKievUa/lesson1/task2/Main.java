@@ -1,4 +1,4 @@
-package com.progKievUa.lesson1.taskTwo;
+package com.progKievUa.lesson1.task2;
 
 public class Main {
 
