@@ -16,6 +16,11 @@ public class Main {
 		System.out.print(cat.catHungry(cat.getName()));
 		
 		cat.catEat(cat.getName());
+		
+		Cat catTwo = new Cat("Rigik",4,3,"white");
+		
+		System.out.print(catTwo);
+		
 	}
 
 }

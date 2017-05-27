@@ -5,16 +5,18 @@ package com.progKievUa.lesson1.taskOne;
  *  Наделить его свойствами и методами. 
  *  Создать несколько экземпляров объектов этого класса. 
  *  Использовать эти объекты.
+ *  
+ *  create Ruslan Ganzhuk
  */
 
 public class Cat {
 	
 	private String name;
 	private int age;
-	private int weight;
+	private double weight;
 	private String color;
 	
-	public Cat (String name, int age,int weight ,String color){
+	public Cat (String name, int age,double weight ,String color){
 		this.name = name;
 		this.age = age;
 		this.weight = weight;
@@ -35,7 +37,7 @@ public class Cat {
 	
 	public void catEat (String name){
 		System.out.println(name + " eating...");
-		System.out.println(name + "is full");
+		System.out.println(name + " is full");
 	}
 	
 	public String catAge (int catAge){
@@ -58,7 +60,7 @@ public class Cat {
 		this.age = age;
 	}
 
-	public int getWeight() {
+	public double getWeight() {
 		return weight;
 	}
 
