@@ -1,5 +1,12 @@
 package com.progKievUa.lesson1.task3;
 
+/*
+ * Realization sum, subtraction, scalar multiplication and vector multiplication
+ * for Vector3D.
+ * 
+ * create Ruslan Ganzhuk
+ */
+
 public class VectorCalculator {
 	
 	
